@@ -249,6 +249,145 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://JYBian.github.io/2019/09/24/2019-09-24-Algorithm-Analysis/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Junyu Bian">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="JunyuBIAN">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/09/24/2019-09-24-Algorithm-Analysis/" itemprop="url">Algorithm Analysis</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-09-24T00:00:00-04:00">
+                2019-09-24
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="Mathematical-Model"><a href="#Mathematical-Model" class="headerlink" title="Mathematical Model"></a>Mathematical Model</h1><h2 id="1-Appromixation"><a href="#1-Appromixation" class="headerlink" title="1. Appromixation"></a>1. Appromixation</h2><ul>
+<li>$\frac{N^3}{6}-\frac{N^2}{2}+\frac{N}{3}$ ~ $\frac{N^3}{6}$. </li>
+<li>$~f(N)$ can be used to represent all the functions deveided by $f(N)$ that will approach 1 when the altitude of $N$ becomes bigger.</li>
+</ul>
+<h2 id="2-Order-of-Magnitude"><a href="#2-Order-of-Magnitude" class="headerlink" title="2. Order of Magnitude"></a>2. Order of Magnitude</h2><ul>
+<li>The order of magnitude for $\frac{N^3}{6}-\frac{N^2}{2}+\frac{N}{3}$ is $O(N^3)$</li>
+<li>The order of magnitude is separate from the realization of algorithm, i.e. the order of magnitude for one algorithm is $O(N^3)$ has nothing to do with whether it is realized using Java or using C++.</li>
+</ul>
+<h2 id="3-Inner-Loop"><a href="#3-Inner-Loop" class="headerlink" title="3. Inner Loop"></a>3. Inner Loop</h2><ul>
+<li>The most frequently used command decides the total time for a program to run, such command is called inner loop  of a program.</li>
+</ul>
+<h1 id="Things-to-Notice"><a href="#Things-to-Notice" class="headerlink" title="Things to Notice"></a>Things to Notice</h1><h2 id="1-Big-Constant-Number"><a href="#1-Big-Constant-Number" class="headerlink" title="1. Big Constant Number"></a>1. Big Constant Number</h2><ul>
+<li>When coping with approximation problems, if there is a big constant before a lower term, the approximation result may not be accurate.</li>
+</ul>
+<h2 id="2-Cache"><a href="#2-Cache" class="headerlink" title="2. Cache"></a>2. Cache</h2><ul>
+<li>Computer use cache to organize the memory, visiting a neighbored element in an array will be much faster than visiting non-neighbored one.</li>
+</ul>
+<h2 id="3-Randomize-Algorithm"><a href="#3-Randomize-Algorithm" class="headerlink" title="3. Randomize Algorithm"></a>3. Randomize Algorithm</h2><ul>
+<li>When testing algorithm, try to mess up the input to reduce the dependence of input for an algorithm.</li>
+</ul>
+<h2 id="4"><a href="#4" class="headerlink" title="4."></a>4.</h2>
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://JYBian.github.io/2019/09/24/2019-09-24-Base-of-Java/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -320,7 +459,7 @@
       
         
           
-            <p>This blog is a record of learnt basic knowledge of Java from <a href="CodeWar.com">CodeWar</a>.</p>
+            <p>This blog is a record of learnt basic knowledge of Java from <a href="www.codewars.com">CodeWar</a>.</p>
 <h3 id="2019-09-24-Regex-validate-PIN-code"><a href="#2019-09-24-Regex-validate-PIN-code" class="headerlink" title="2019.09.24 (Regex-validate-PIN-code)"></a>2019.09.24 (Regex-validate-PIN-code)</h3><ol>
 <li><p><code>length()</code> method</p>
 <ul>
@@ -476,145 +615,6 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://JYBian.github.io/2019/09/24/2019-09-24-Algorithm-Analysis/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Junyu Bian">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="JunyuBIAN">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/09/24/2019-09-24-Algorithm-Analysis/" itemprop="url">Algorithm Analysis</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-09-24T00:00:00-04:00">
-                2019-09-24
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h1 id="Mathematical-Model"><a href="#Mathematical-Model" class="headerlink" title="Mathematical Model"></a>Mathematical Model</h1><h2 id="1-Appromixation"><a href="#1-Appromixation" class="headerlink" title="1. Appromixation"></a>1. Appromixation</h2><ul>
-<li>$\frac{N^3}{6}-\frac{N^2}{2}+\frac{N}{3}$ ~ $\frac{N^3}{6}$. </li>
-<li>$~f(N)$ can be used to represent all the functions deveided by $f(N)$ that will approach 1 when the altitude of $N$ becomes bigger.</li>
-</ul>
-<h2 id="2-Order-of-Magnitude"><a href="#2-Order-of-Magnitude" class="headerlink" title="2. Order of Magnitude"></a>2. Order of Magnitude</h2><ul>
-<li>The order of magnitude for $\frac{N^3}{6}-\frac{N^2}{2}+\frac{N}{3}$ is $O(N^3)$</li>
-<li>The order of magnitude is separate from the realization of algorithm, i.e. the order of magnitude for one algorithm is $O(N^3)$ has nothing to do with whether it is realized using Java or using C++.</li>
-</ul>
-<h2 id="3-Inner-Loop"><a href="#3-Inner-Loop" class="headerlink" title="3. Inner Loop"></a>3. Inner Loop</h2><ul>
-<li>The most frequently used command decides the total time for a program to run, such command is called inner loop  of a program.</li>
-</ul>
-<h1 id="Things-to-Notice"><a href="#Things-to-Notice" class="headerlink" title="Things to Notice"></a>Things to Notice</h1><h2 id="1-Big-Constant-Number"><a href="#1-Big-Constant-Number" class="headerlink" title="1. Big Constant Number"></a>1. Big Constant Number</h2><ul>
-<li>When coping with approximation problems, if there is a big constant before a lower term, the approximation result may not be accurate.</li>
-</ul>
-<h2 id="2-Cache"><a href="#2-Cache" class="headerlink" title="2. Cache"></a>2. Cache</h2><ul>
-<li>Computer use cache to organize the memory, visiting a neighbored element in an array will be much faster than visiting non-neighbored one.</li>
-</ul>
-<h2 id="3-Randomize-Algorithm"><a href="#3-Randomize-Algorithm" class="headerlink" title="3. Randomize Algorithm"></a>3. Randomize Algorithm</h2><ul>
-<li>When testing algorithm, try to mess up the input to reduce the dependence of input for an algorithm.</li>
-</ul>
-<h2 id="4"><a href="#4" class="headerlink" title="4."></a>4.</h2>
           
         
       
