@@ -249,6 +249,172 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://JYBian.github.io/2019/09/26/2019-09-26-Base-of-Java/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Junyu Bian">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="JunyuBIAN">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/09/26/2019-09-26-Base-of-Java/" itemprop="url">Base of Java</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-09-26T00:00:00-04:00">
+                2019-09-26
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>This blog is a record of basic knowledge of Java learnt from codewars.com and leetcode.com.</p>
+<h3 id="2019-09-24-Regex-validate-PIN-code"><a href="#2019-09-24-Regex-validate-PIN-code" class="headerlink" title="2019.09.24 (Regex-validate-PIN-code)"></a>2019.09.24 (Regex-validate-PIN-code)</h3><ol>
+<li><p><code>string.length()</code>: </p>
+<ul>
+<li>Used for <code>string</code>.</li>
+<li>Return the length of a string.</li>
+</ul>
+</li>
+<li><p><code>string.toCharArray()</code>:</p>
+<ul>
+<li>Used for string.</li>
+<li>Transform a string into a Char Array.</li>
+<li>Attention: all the elements in the string will be transformed, e.g. a space (“ “).</li>
+</ul>
+</li>
+<li><p><code>regex</code>:</p>
+<ul>
+<li>Stands for regular expression.</li>
+<li>Used to search, edit and manipulate text.</li>
+<li>Need to <code>import java.util.regex.*</code></li>
+<li>e.g. Looking for words that is 2 to 20 characters in length: <code>\\w{2,20}</code></li>
+</ul>
+</li>
+</ol>
+<h3 id="2019-09-25-Longest-Substring-Without-Repeating-Characters"><a href="#2019-09-25-Longest-Substring-Without-Repeating-Characters" class="headerlink" title="2019.09.25 (Longest Substring Without Repeating Characters)"></a>2019.09.25 (Longest Substring Without Repeating Characters)</h3><ol>
+<li><p><code>string.charAt()</code>:</p>
+<ul>
+<li><p>Used for returning a character at specific position.</p>
+</li>
+<li><p>Range from 0 to length()-1</p>
+</li>
+<li><p>e.g. </p>
+</li>
+<li><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">String s = <span class="string">"www.runoob.com"</span>;</span><br><span class="line"><span class="keyword">char</span> result = s.charAt(<span class="number">8</span>); ( = <span class="string">'o'</span>)</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+</ol>
+<h3 id="2019-09-26-Remove-String-Spaces"><a href="#2019-09-26-Remove-String-Spaces" class="headerlink" title="2019.09.26 (Remove String Spaces)"></a>2019.09.26 (Remove String Spaces)</h3><ol>
+<li><p><code>string.replace(target, replacement)</code> and  <code>string.replaceAll(target, replacement)</code></p>
+<ul>
+<li>Used for replacing target elements in string.</li>
+<li><code>replace()</code> works with CharSequence, <code>replaceAll()</code> works with regular expressions.</li>
+</ul>
+</li>
+<li></li>
+</ol>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://JYBian.github.io/2019/09/26/2019-09-26-Basic-Algorithms/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -448,176 +614,10 @@
       
         
           
-            <h1 id="Knapsack-Problem"><a href="#Knapsack-Problem" class="headerlink" title="Knapsack Problem"></a>Knapsack Problem</h1><h2 id="I-Introduction"><a href="#I-Introduction" class="headerlink" title="I. Introduction"></a>I. Introduction</h2><h3 id="I-I-What-is-Knapsack-Problem"><a href="#I-I-What-is-Knapsack-Problem" class="headerlink" title="I.I What is Knapsack Problem"></a>I.I What is Knapsack Problem</h3><p>Knapsack Problem decribes the kind of situation, where a group of objects has been given. Each of them has it’s own weight and value. We need to optimize our choice to gain the greatest total value within a limitation of weights.</p>
-<h3 id="I-II-Categories"><a href="#I-II-Categories" class="headerlink" title="I.II Categories"></a>I.II Categories</h3><p>Different categories: <code>A (0-1 Knapsack Problem)</code>, <code>B</code>, <code>C</code>, <code>D</code>, <code>E</code>, <code>F</code>, <code>G</code>, <code>H</code>.</p>
-<h2 id="II-A-0-1-Knapsack-Problem"><a href="#II-A-0-1-Knapsack-Problem" class="headerlink" title="II. A (0-1 Knapsack Problem)"></a>II. A (0-1 Knapsack Problem)</h2><h3 id="II-I-Description"><a href="#II-I-Description" class="headerlink" title="II.I Description"></a>II.I Description</h3><p>Suppose we have <code>N</code> objects and a knapsack that can hold <code>V</code> kg staffs. The weight of the <code>i</code>th object is <code>w[i]</code> kg with <code>val[i]</code> as the value. Find out which object(s) to put in tomake the value maximum without excess the weight limitation.</p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://JYBian.github.io/2019/09/26/2019-09-26-Base-of-Java/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Junyu Bian">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="JunyuBIAN">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/09/26/2019-09-26-Base-of-Java/" itemprop="url">Base of Java</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-09-26T00:00:00-04:00">
-                2019-09-26
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>This blog is a record of basic knowledge of Java learnt from codewars.com and leetcode.com.</p>
-<h3 id="2019-09-24-Regex-validate-PIN-code"><a href="#2019-09-24-Regex-validate-PIN-code" class="headerlink" title="2019.09.24 (Regex-validate-PIN-code)"></a>2019.09.24 (Regex-validate-PIN-code)</h3><ol>
-<li><p><code>string.length()</code>: </p>
-<ul>
-<li>Used for <code>string</code>.</li>
-<li>Return the length of a string.</li>
-</ul>
-</li>
-<li><p><code>string.toCharArray()</code>:</p>
-<ul>
-<li>Used for string.</li>
-<li>Transform a string into a Char Array.</li>
-<li>Attention: all the elements in the string will be transformed, e.g. a space (“ “).</li>
-</ul>
-</li>
-<li><p><code>regex</code>:</p>
-<ul>
-<li>Stands for regular expression.</li>
-<li>Used to search, edit and manipulate text.</li>
-<li>Need to <code>import java.util.regex.*</code></li>
-<li>e.g. Looking for words that is 2 to 20 characters in length: <code>\\w{2,20}</code></li>
-</ul>
-</li>
-</ol>
-<h3 id="2019-09-25-Longest-Substring-Without-Repeating-Characters"><a href="#2019-09-25-Longest-Substring-Without-Repeating-Characters" class="headerlink" title="2019.09.25 (Longest Substring Without Repeating Characters)"></a>2019.09.25 (Longest Substring Without Repeating Characters)</h3><ol>
-<li><p><code>string.charAt()</code>:</p>
-<ul>
-<li><p>Used for returning a character at specific position.</p>
-</li>
-<li><p>Range from 0 to length()-1</p>
-</li>
-<li><p>e.g. </p>
-</li>
-<li><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">String s = <span class="string">"www.runoob.com"</span>;</span><br><span class="line"><span class="keyword">char</span> result = s.charAt(<span class="number">8</span>); ( = <span class="string">'o'</span>)</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-</li>
-</ol>
-<h3 id="2019-09-26-Remove-String-Spaces"><a href="#2019-09-26-Remove-String-Spaces" class="headerlink" title="2019.09.26 (Remove String Spaces)"></a>2019.09.26 (Remove String Spaces)</h3><ol>
-<li><p><code>string.replace(target, replacement)</code> and  <code>string.replaceAll(target, replacement)</code></p>
-<ul>
-<li>Used for replacing target elements in string.</li>
-<li><code>replace()</code> works with CharSequence, <code>replaceAll()</code> works with regular expressions.</li>
-</ul>
-</li>
-<li></li>
-</ol>
-
+            <h1 id="Knapsack-Problem"><a href="#Knapsack-Problem" class="headerlink" title="Knapsack Problem"></a>Knapsack Problem</h1><h2 id="I-Introduction"><a href="#I-Introduction" class="headerlink" title="I. Introduction"></a>I. Introduction</h2><h3 id="I-1-What-is-Knapsack-Problem"><a href="#I-1-What-is-Knapsack-Problem" class="headerlink" title="I.1 What is Knapsack Problem"></a>I.1 What is Knapsack Problem</h3><p>Knapsack Problem decribes the kind of situation, where a group of objects has been given. Each of them has it’s own weight and value. We need to optimize our choice to gain the greatest total value within a limitation of weights.</p>
+<h3 id="I-2-Categories"><a href="#I-2-Categories" class="headerlink" title="I.2 Categories"></a>I.2 Categories</h3><p>Different categories: <code>A (0-1 Knapsack Problem)</code>, <code>B</code>, <code>C</code>, <code>D</code>, <code>E</code>, <code>F</code>, <code>G</code>, <code>H</code>.</p>
+<h2 id="II-A-0-1-Knapsack-Problem"><a href="#II-A-0-1-Knapsack-Problem" class="headerlink" title="II. A (0-1 Knapsack Problem)"></a>II. A (0-1 Knapsack Problem)</h2><h3 id="II-1-Description"><a href="#II-1-Description" class="headerlink" title="II.1 Description"></a>II.1 Description</h3><p>Suppose we have <code>N</code> objects and a knapsack that can hold <code>V</code> kg staffs. The weight of the <code>i</code>th object is <code>w[i]</code> kg with <code>val[i]</code> as the value. Find out which object(s) to put in tomake the value maximum without excess the weight limitation.</p>
+<h3 id="II-2"><a href="#II-2" class="headerlink" title="II.2"></a>II.2</h3>
           
         
       
