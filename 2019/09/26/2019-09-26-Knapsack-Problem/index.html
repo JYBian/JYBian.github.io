@@ -87,7 +87,7 @@
 <meta property="og:site_name" content="JunyuBIAN">
 <meta property="og:description" content="Knapsack ProblemI. IntroductionI.1 What is Knapsack ProblemKnapsack Problem decribes the kind of situation, where a group of objects has been given. Each of them has it’s own weight and value. We need">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-09-28T05:41:40.479Z">
+<meta property="og:updated_time" content="2019-09-28T05:42:59.363Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Knapsack Problem">
 <meta name="twitter:description" content="Knapsack ProblemI. IntroductionI.1 What is Knapsack ProblemKnapsack Problem decribes the kind of situation, where a group of objects has been given. Each of them has it’s own weight and value. We need">
@@ -335,7 +335,7 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">for i = 1 ... N</span><br><span class="line">	for v = 0 ... V</span><br><span class="line">		f[v] = max&#123;f[v], f[v-w[i]]+c[i]&#125;;</span><br></pre></td></tr></table></figure>
 <h3 id="III-5-Little-trick"><a href="#III-5-Little-trick" class="headerlink" title="III.5 Little trick"></a>III.5 Little trick</h3><p>There is a simple and efficient way for optimization: suppose we have two objects <code>i, j</code> with <code>w[i] &lt;= w[j]</code> and <code>val[i] &gt;= val[j]</code>, then we are going to leave <code>j</code> out. Because in any condition, we can change the one in high weight and little value into the one with low weight and high value. Expecially for random data, this method can greatly reduce the number of objects so that we can make it done faster.</p>
 <h3 id="III-6-Transforming-to-A-Type"><a href="#III-6-Transforming-to-A-Type" class="headerlink" title="III.6 Transforming to A Type"></a>III.6 Transforming to A Type</h3><p>A Type is the most basic problem for knapsack problems, we can transform B Type into A Type so that we can solve it easier. When selecting the <code>ith</code> kind of object, we can at most select $\frac{V}{w[i]}$, so we can change selecting the <code>ith</code> object into an object whose weight and value are always unchanged with the number of $\frac{V}{w[i]}$. Then we can solve it as A Type, since it takes one object into several identical ones.</p>
-<p>But the previous method did not change the time complexity. A more efficient way would be change the <code>ith</code> pbject into objects with weight $w[i]<em>2^k$ and value $val[i]</em>2^k$, where $w[i]*2^k &lt; V$. Considering binary, this would take the object into $O(log(\frac{V}{w[i]})+1)$ different objects, which greatly increased the performance.</p>
+<p>But the previous method did not change the time complexity. A more efficient way would be change the <code>ith</code> pbject into objects with weight w[i]<em>2^k​ and value val[i]</em>2^k​, where ​w[i]*2^k &lt; V​. Considering binary, this would take the object into $O(log(\frac{V}{w[i]})+1)$ different objects, which greatly increased the performance.</p>
 
       
     </div>
